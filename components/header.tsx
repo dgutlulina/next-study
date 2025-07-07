@@ -7,10 +7,12 @@ const linkData = [
   { href: '/one', label: '1' },
   { href: '/two', label: '2' },
   { href: '/three', label: '3' },
-]
+];
+
 
 export default function Header() {
   const pathname = usePathname()
+
   return (
  <div className="absolute  w-full z-10">
                   <div className="flex justify-between container mx-auto text-lg font-bold p-4 border-b-2 border-gray-200 ">
