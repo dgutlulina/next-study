@@ -2,12 +2,11 @@ import React from 'react'
 import Hero from '@/components/hero'
 
 export const metadata = {
-  title: 'Home',
+  title: 'Two' ,
 }
 
 export default function Page() {
   return (
-    <Hero imgUrl='/home.jpg' altText='Home' content='Home' />
+  <Hero imgUrl='/two.jpg' altText='Two' content='TWO' />
   )
 }
-
